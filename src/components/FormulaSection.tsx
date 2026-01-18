@@ -14,7 +14,7 @@ const FormulaSection = () => {
     },
     {
       icon: Skull,
-      label: "P3 — Propagar a Morte na Colônia",
+      label: "P3 — Propagar a Morte",
       text: "Use a isca do jeito certo para eliminar o foco.",
     },
   ];
@@ -27,35 +27,35 @@ const FormulaSection = () => {
           <span className="text-primary">sempre voltam?</span>
         </h2>
 
-        <p className="text-center text-muted-foreground mb-8 text-lg">
-          Porque a maioria das pessoas tenta matar as baratas que aparecem,<br />
+        <p className="text-center text-muted-foreground mb-6 sm:mb-8 text-sm sm:text-base leading-relaxed">
+          Porque a maioria tenta matar as baratas que aparecem,{" "}
           <strong className="text-foreground">mas não quebra o ciclo invisível da colônia.</strong>
         </p>
 
         <div className="formula-box">
-          <h3 className="text-xl font-bold text-foreground mb-6 text-center">
+          <h3 className="text-base sm:text-xl font-bold text-foreground mb-4 sm:mb-6 text-center">
             A Fórmula 3P funciona assim:
           </h3>
 
-          <div className="space-y-5">
+          <div className="space-y-3 sm:space-y-4">
             {steps.map((step, index) => (
               <div
                 key={index}
-                className="flex items-start gap-4 bg-card p-4 rounded-xl"
+                className="flex items-start gap-3 sm:gap-4 bg-card p-3 sm:p-4 rounded-lg sm:rounded-xl"
               >
-                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                  <step.icon className="w-6 h-6 text-primary" />
+                <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-primary/10 flex items-center justify-center">
+                  <step.icon className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
                 </div>
-                <div>
-                  <h4 className="font-bold text-foreground">{step.label}</h4>
-                  <p className="text-muted-foreground">{step.text}</p>
+                <div className="min-w-0">
+                  <h4 className="font-bold text-foreground text-sm sm:text-base">{step.label}</h4>
+                  <p className="text-muted-foreground text-xs sm:text-sm leading-relaxed">{step.text}</p>
                 </div>
               </div>
             ))}
           </div>
         </div>
 
-        <div className="text-center mt-8">
+        <div className="text-center mt-6 sm:mt-8">
           <a href="#comprar" className="cta-button">
             BAIXAR A FÓRMULA 3P
           </a>

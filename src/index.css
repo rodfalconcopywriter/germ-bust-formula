@@ -98,7 +98,7 @@
 
 @layer components {
   .cta-button {
-    @apply inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-primary-foreground rounded-xl shadow-lg transition-all duration-300;
+    @apply inline-flex items-center justify-center w-full sm:w-auto px-6 sm:px-8 py-4 sm:py-5 text-base sm:text-lg font-bold text-primary-foreground rounded-xl shadow-lg transition-all duration-300;
     background: var(--cta-gradient);
     box-shadow: 0 8px 30px -8px hsl(var(--primary) / 0.5);
   }
@@ -114,25 +114,25 @@
   }
 
   .urgency-bar {
-    @apply w-full py-2.5 px-4 text-center text-sm font-medium;
+    @apply w-full py-3 px-3 text-center text-xs sm:text-sm font-medium leading-snug;
     background: hsl(var(--urgency));
     color: hsl(var(--urgency-foreground));
   }
 
   .badge-success {
-    @apply inline-flex items-center px-3 py-1.5 rounded-full text-sm font-medium;
+    @apply inline-flex items-center px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full text-xs sm:text-sm font-medium;
     background: hsl(var(--badge-bg));
     color: hsl(var(--badge-text));
   }
 
   .formula-box {
-    @apply rounded-2xl p-6 border-2;
+    @apply rounded-xl sm:rounded-2xl p-4 sm:p-6 border-2;
     background: hsl(var(--formula-box));
     border-color: hsl(var(--formula-border));
   }
 
   .testimonial-card {
-    @apply rounded-xl p-5 border;
+    @apply rounded-lg sm:rounded-xl p-4 sm:p-5 border;
     background: hsl(var(--testimonial-bg));
     border-color: hsl(var(--testimonial-border));
   }
@@ -142,11 +142,11 @@
   }
 
   .section-container {
-    @apply max-w-2xl mx-auto px-5 py-12;
+    @apply max-w-2xl mx-auto px-4 sm:px-5 py-8 sm:py-12;
   }
 
   .section-title {
-    @apply text-2xl md:text-3xl font-bold text-foreground mb-6 text-center;
+    @apply text-xl sm:text-2xl md:text-3xl font-bold text-foreground mb-4 sm:mb-6 text-center leading-tight;
   }
 
   .fade-in {
