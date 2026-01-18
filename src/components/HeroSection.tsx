@@ -19,8 +19,8 @@ const HeroSection = () => {
       </div>
 
       <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-foreground leading-tight mb-3 sm:mb-4">
-        Fórmula 3P – Extermínio das{" "}
-        <span className="text-primary">Baratas Francesinhas</span>
+        Descubra a Fórmula 3P – Extermínio das{" "}
+        <span className="text-primary">Baratas Francesinhas</span> em até 7 dias.
       </h1>
 
       <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
