@@ -30,16 +30,16 @@ const BenefitsSection = () => {
         O que você vai acessar <span className="text-primary">imediatamente</span>
       </h2>
 
-      <div className="space-y-4 mb-10">
+      <div className="space-y-3 sm:space-y-4 mb-8 sm:mb-10">
         {benefits.map((benefit, index) => (
           <div
             key={index}
-            className="flex items-center gap-4 bg-card border border-border rounded-xl p-4"
+            className="flex items-center gap-3 sm:gap-4 bg-card border border-border rounded-lg sm:rounded-xl p-3 sm:p-4"
           >
-            <div className="flex-shrink-0 w-10 h-10 rounded-full bg-success/10 flex items-center justify-center">
-              <benefit.icon className="w-5 h-5 text-success" />
+            <div className="flex-shrink-0 w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-success/10 flex items-center justify-center">
+              <benefit.icon className="w-4 h-4 sm:w-5 sm:h-5 text-success" />
             </div>
-            <span className="font-medium text-foreground">{benefit.text}</span>
+            <span className="font-medium text-foreground text-sm sm:text-base">{benefit.text}</span>
           </div>
         ))}
       </div>
