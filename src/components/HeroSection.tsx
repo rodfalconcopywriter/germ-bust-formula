@@ -1,4 +1,5 @@
 import { Check, ShieldCheck } from "lucide-react";
+import bannerImage from "@/assets/banner.webp";
 
 const HeroSection = () => {
   const badges = [
@@ -25,6 +26,14 @@ const HeroSection = () => {
       <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
         Aprenda a preparar e aplicar o gel certo para cortar o ciclo da infestação antes que vire colônia.
       </p>
+
+      <div className="mb-6 sm:mb-8">
+        <img 
+          src={bannerImage} 
+          alt="Fórmula 3P - Método de extermínio de baratas francesinhas" 
+          className="w-full max-w-2xl mx-auto rounded-lg sm:rounded-xl shadow-lg"
+        />
+      </div>
 
       <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap sm:justify-center sm:gap-2 mb-8 sm:mb-10">
         {badges.map((badge, index) => (
