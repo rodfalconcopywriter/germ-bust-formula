@@ -4,11 +4,11 @@ const BenefitsSection = () => {
   const benefits = [
     {
       icon: FileText,
-      text: "Guia prático da Fórmula 3P (passo a passo)",
+      text: "Guia prático da Fórmula 3P (preparo + aplicação do gel)",
     },
     {
       icon: CheckCircle2,
-      text: "Checklist de aplicação em 15 minutos",
+      text: "Checklist de preparo e aplicação em 15 minutos",
     },
     {
       icon: Map,
@@ -16,11 +16,11 @@ const BenefitsSection = () => {
     },
     {
       icon: Droplets,
-      text: "Orientação correta de uso do gel isca",
+      text: "Orientação correta da mistura (quantidade e pontos)",
     },
     {
       icon: AlertCircle,
-      text: "Erros que fazem a infestação voltar",
+      text: "Erros que fazem a infestação voltar mesmo com receita caseira",
     },
   ];
 

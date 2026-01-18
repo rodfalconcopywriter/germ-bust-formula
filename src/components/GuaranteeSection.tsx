@@ -12,7 +12,7 @@ const GuaranteeSection = () => {
           </div>
 
           <p className="text-sm sm:text-lg text-foreground mb-1 sm:mb-2">
-            Se você aplicar a Fórmula 3P e não entender o método,
+            Se você seguir o método de preparo e aplicação e não entender,
           </p>
           <p className="text-sm sm:text-lg font-bold text-foreground">
             solicite reembolso em até <span className="text-success">7 dias</span>.
