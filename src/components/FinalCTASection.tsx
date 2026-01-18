@@ -13,7 +13,7 @@ const FinalCTASection = () => {
           Acesse o método que ensina a preparar e aplicar o gel certo para eliminar pela raiz.
         </p>
 
-        <a href="#" className="cta-button pulse-cta text-lg sm:text-xl md:text-2xl mb-3 sm:mb-4">
+        <a href="https://pay.kiwify.com.br/BiuAzOP" target="_blank" rel="noopener noreferrer" className="cta-button pulse-cta text-lg sm:text-xl md:text-2xl mb-3 sm:mb-4">
           RESOLVER AGORA POR R$7
           <ArrowRight className="w-5 h-5 sm:w-6 sm:h-6 ml-2" />
         </a>

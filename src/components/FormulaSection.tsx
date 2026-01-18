@@ -56,7 +56,7 @@ const FormulaSection = () => {
         </div>
 
         <div className="text-center mt-6 sm:mt-8">
-          <a href="#comprar" className="cta-button">
+          <a href="https://pay.kiwify.com.br/BiuAzOP" target="_blank" rel="noopener noreferrer" className="cta-button">
             BAIXAR A FÓRMULA 3P
           </a>
         </div>
