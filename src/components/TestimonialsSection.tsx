@@ -1,22 +1,30 @@
 import { Quote, Star, BadgeCheck } from "lucide-react";
+import mariaImage from "@/assets/testimonial-maria.jpg";
+import ricardoImage from "@/assets/testimonial-ricardo.jpg";
+import julianaImage from "@/assets/testimonial-juliana.jpg";
+import carlosImage from "@/assets/testimonial-carlos.jpg";
 
 const TestimonialsSection = () => {
   const testimonials = [
     {
       text: "Finalmente entendi o preparo certo. Ninguém explicava isso.",
       name: "Maria C.",
+      image: mariaImage,
     },
     {
       text: "Depois que fiz o gel do jeito certo, sumiram em dias.",
       name: "Ricardo S.",
+      image: ricardoImage,
     },
     {
       text: "Já tinha testado várias receitas. Essa foi a única que funcionou.",
       name: "Juliana M.",
+      image: julianaImage,
     },
     {
       text: "Agora sei exatamente onde e como aplicar.",
       name: "Carlos A.",
+      image: carlosImage,
     },
   ];
 
@@ -34,11 +42,26 @@ const TestimonialsSection = () => {
                 <Star key={i} className="w-3.5 h-3.5 sm:w-4 sm:h-4 fill-accent text-accent" />
               ))}
             </div>
-            <div className="flex items-start gap-2 sm:gap-3">
-              <Quote className="w-4 h-4 sm:w-5 sm:h-5 text-primary flex-shrink-0 mt-0.5" />
-              <div>
-                <p className="text-foreground font-medium italic text-sm sm:text-base">"{testimonial.text}"</p>
-                <p className="text-xs sm:text-sm text-muted-foreground mt-1.5 sm:mt-2">— {testimonial.name}</p>
+            <div className="flex items-start gap-3 sm:gap-4">
+              {/* Foto do usuário */}
+              <div className="flex-shrink-0">
+                <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full overflow-hidden border-2 border-primary/20 shadow-sm">
+                  <img 
+                    src={testimonial.image} 
+                    alt={`Foto de ${testimonial.name}`}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+              
+              <div className="flex-1">
+                <div className="flex items-start gap-2">
+                  <Quote className="w-4 h-4 sm:w-5 sm:h-5 text-primary flex-shrink-0 mt-0.5" />
+                  <div>
+                    <p className="text-foreground font-medium italic text-sm sm:text-base">"{testimonial.text}"</p>
+                    <p className="text-xs sm:text-sm text-muted-foreground mt-1.5 sm:mt-2">— {testimonial.name}</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
