@@ -8,23 +8,33 @@ const BenefitsSection = () => {
   const benefits = [
     {
       image: produtoPrincipal,
-      text: "Guia prático da Fórmula 3P (preparo + aplicação do gel)",
+      title: "Guia Prático da Fórmula 3P",
+      subtitle: "(preparo + aplicação do gel)",
+      description: "Passo a passo simples e direto",
     },
     {
       image: listaChecklist,
-      text: "Checklist de preparo e aplicação em 15 minutos",
+      title: "Checklist de Preparo e Aplicação em 15 Minutos",
+      subtitle: "",
+      description: "Evite erros comuns logo na primeira aplicação",
     },
     {
       image: mapaEsconderijos,
-      text: "Mapa dos esconderijos invisíveis",
+      title: "Mapa dos Esconderijos Invisíveis",
+      subtitle: "",
+      description: "Descubra onde realmente aplicar o gel",
     },
     {
       image: orientacaoCorreta,
-      text: "Orientação correta da mistura (quantidade e pontos)",
+      title: "Orientação Correta da Mistura",
+      subtitle: "(quantidade certa e pontos estratégicos)",
+      description: "Mistura certa = resultado real",
     },
     {
       image: errosImage,
-      text: "Erros que fazem a infestação voltar mesmo com receita caseira",
+      title: "Erros que Fazem a Infestação Voltar",
+      subtitle: "(mesmo usando receita caseira)",
+      description: "O que NÃO fazer para não perder o efeito",
     },
   ];
 
@@ -34,27 +44,41 @@ const BenefitsSection = () => {
         O que você vai acessar <span className="text-primary">imediatamente</span>
       </h2>
 
-      <div className="space-y-3 sm:space-y-4 mb-8 sm:mb-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-6 sm:mb-8">
         {benefits.map((benefit, index) => (
           <div
             key={index}
-            className="flex items-center gap-3 sm:gap-4 bg-card border border-border rounded-lg sm:rounded-xl p-3 sm:p-4"
+            className="bg-white border border-border/50 rounded-xl sm:rounded-2xl p-4 sm:p-5 shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col items-center text-center"
           >
-            <div className="flex-shrink-0 w-14 h-14 sm:w-16 sm:h-16 rounded-lg overflow-hidden bg-muted">
+            <div className="w-24 h-24 sm:w-28 sm:h-28 mb-4 rounded-lg overflow-hidden bg-muted/30">
               <img 
                 src={benefit.image} 
-                alt={benefit.text} 
+                alt={benefit.title} 
                 className="w-full h-full object-cover"
               />
             </div>
-            <span className="font-medium text-foreground text-sm sm:text-base">{benefit.text}</span>
+            <h3 className="font-bold text-foreground text-sm sm:text-base leading-tight mb-1">
+              {benefit.title}
+            </h3>
+            {benefit.subtitle && (
+              <span className="text-xs sm:text-sm text-primary font-medium mb-2">
+                {benefit.subtitle}
+              </span>
+            )}
+            <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
+              {benefit.description}
+            </p>
           </div>
         ))}
       </div>
 
+      <p className="text-center text-sm sm:text-base text-muted-foreground mb-6 sm:mb-8 max-w-xl mx-auto">
+        Tudo organizado para você preparar, aplicar e eliminar as baratas francesinhas sem erro.
+      </p>
+
       <div className="text-center">
         <a href="#comprar" className="cta-button">
-          QUERO RESOLVER ISSO AGORA
+          QUERO ACESSAR AGORA
         </a>
       </div>
     </section>
