@@ -44,7 +44,7 @@ const HeroSection = () => {
         ))}
       </div>
 
-      <a href="#comprar" className="cta-button pulse-cta text-lg sm:text-xl">
+      <a href="https://pay.kiwify.com.br/BiuAzOP" target="_blank" rel="noopener noreferrer" className="cta-button pulse-cta text-lg sm:text-xl">
         RESOLVER AGORA POR R$7
       </a>
 

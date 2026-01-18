@@ -77,7 +77,7 @@ const BenefitsSection = () => {
       </p>
 
       <div className="text-center">
-        <a href="#comprar" className="cta-button">
+        <a href="https://pay.kiwify.com.br/BiuAzOP" target="_blank" rel="noopener noreferrer" className="cta-button">
           QUERO ACESSAR AGORA
         </a>
       </div>
