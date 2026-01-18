@@ -1,4 +1,5 @@
-import { CheckCircle, Award } from "lucide-react";
+import { CheckCircle } from "lucide-react";
+import especialistaImage from "@/assets/especialista.png";
 
 const AuthoritySection = () => {
   const credentials = [
@@ -21,8 +22,12 @@ const AuthoritySection = () => {
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5 sm:gap-8">
             {/* Foto do especialista */}
             <div className="flex-shrink-0">
-              <div className="w-28 h-28 sm:w-36 sm:h-36 rounded-full bg-gradient-to-br from-primary/20 to-primary/5 flex items-center justify-center border-2 border-primary/30">
-                <Award className="w-12 h-12 sm:w-16 sm:h-16 text-primary" />
+              <div className="w-28 h-28 sm:w-36 sm:h-36 rounded-full overflow-hidden border-2 border-primary/30 shadow-md">
+                <img 
+                  src={especialistaImage} 
+                  alt="Richard Floriani - Especialista em Controle de Pragas" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
 
