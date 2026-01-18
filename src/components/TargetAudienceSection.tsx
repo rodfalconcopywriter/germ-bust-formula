@@ -2,11 +2,11 @@ import { Check } from "lucide-react";
 
 const TargetAudienceSection = () => {
   const targets = [
-    "Está lidando com baratas pequenas",
-    "Já limpou, passou veneno e não resolveu",
-    "Mora em casa ou apartamento",
-    "Quer eliminar sem dedetizar tudo",
-    "Quer resolver antes que vire infestação",
+    "Está lidando com baratas pequenas (francesinhas)",
+    "Já testou receitas da internet e não funcionou",
+    "Quer entender o porquê funciona",
+    "Quer fazer o gel certo uma única vez",
+    "Quer eliminar sem dedetizar a casa inteira",
   ];
 
   return (

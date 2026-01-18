@@ -3,19 +3,19 @@ import { Quote, Star, BadgeCheck } from "lucide-react";
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      text: "Não aguentava mais ver essas baratinhas no armário.",
+      text: "Finalmente entendi o preparo certo. Ninguém explicava isso.",
       name: "Maria C.",
     },
     {
-      text: "Depois que apliquei do jeito certo, sumiram.",
+      text: "Depois que fiz o gel do jeito certo, sumiram em dias.",
       name: "Ricardo S.",
     },
     {
-      text: "Finalmente entendi onde estava errando.",
+      text: "Já tinha testado várias receitas. Essa foi a única que funcionou.",
       name: "Juliana M.",
     },
     {
-      text: "Era isso que ninguém explicava.",
+      text: "Agora sei exatamente onde e como aplicar.",
       name: "Carlos A.",
     },
   ];
@@ -47,7 +47,7 @@ const TestimonialsSection = () => {
 
       <div className="flex items-start sm:items-center justify-center gap-2 text-muted-foreground text-xs sm:text-sm text-center">
         <BadgeCheck className="w-4 h-4 sm:w-5 sm:h-5 text-success flex-shrink-0 mt-0.5 sm:mt-0" />
-        <span>Método baseado em orientações profissionais de controle de pragas.</span>
+        <span>Método baseado em práticas reais de controle de pragas, adaptadas para preparo e uso doméstico seguro.</span>
       </div>
     </section>
   );

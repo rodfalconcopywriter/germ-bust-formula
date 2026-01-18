@@ -11,7 +11,7 @@ const Footer = () => {
           </span>
           <span className="flex items-center gap-1.5">
             <FileText className="w-4 h-4" />
-            Conteúdo digital
+            Método passo a passo
           </span>
           <span className="flex items-center gap-1.5">
             <Home className="w-4 h-4" />

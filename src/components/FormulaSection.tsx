@@ -5,17 +5,17 @@ const FormulaSection = () => {
     {
       icon: Ban,
       label: "P1 — Parar a Entrada",
-      text: "Bloqueie ralos, frestas e pontos invisíveis.",
+      text: "Bloqueie ralos, frestas e pontos invisíveis onde elas entram.",
     },
     {
       icon: Target,
       label: "P2 — Punir o Esconderijo",
-      text: "Ataque os abrigos quentes onde elas se reproduzem.",
+      text: "Ataque os abrigos quentes onde elas se reproduzem com o preparo certo.",
     },
     {
       icon: Skull,
       label: "P3 — Propagar a Morte",
-      text: "Use a isca do jeito certo para eliminar o foco.",
+      text: "Aprenda a preparar o gel e aplicar nos pontos estratégicos para eliminar a colônia.",
     },
   ];
 
@@ -28,8 +28,8 @@ const FormulaSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-6 sm:mb-8 text-sm sm:text-base leading-relaxed">
-          Porque a maioria tenta matar as baratas que aparecem,{" "}
-          <strong className="text-foreground">mas não quebra o ciclo invisível da colônia.</strong>
+          Porque a maioria usa receita solta, mistura errada e aplica no lugar errado.{" "}
+          <strong className="text-foreground">Receita solta não funciona sem o método.</strong>
         </p>
 
         <div className="formula-box">

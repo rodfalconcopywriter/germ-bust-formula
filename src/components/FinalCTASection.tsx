@@ -10,7 +10,7 @@ const FinalCTASection = () => {
         </h2>
 
         <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-6 sm:mb-8">
-          Ou você quebra o ciclo agora, ou elas se multiplicam.
+          Acesse o método que ensina a preparar e aplicar o gel certo para eliminar pela raiz.
         </p>
 
         <a href="#" className="cta-button pulse-cta text-lg sm:text-xl md:text-2xl mb-3 sm:mb-4">

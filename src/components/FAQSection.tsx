@@ -8,20 +8,28 @@ import {
 const FAQSection = () => {
   const faqs = [
     {
+      question: "Isso é veneno forte?",
+      answer: "Não. É um gel preparado em casa, ensinado passo a passo, com aplicação estratégica.",
+    },
+    {
+      question: "Eu preciso comprar gel pronto?",
+      answer: "Não. A Fórmula 3P ensina como preparar o gel correto e como aplicar.",
+    },
+    {
+      question: "Funciona melhor do que receitas soltas da internet?",
+      answer: "Sim, porque aqui você aprende o método completo, não só a receita.",
+    },
+    {
       question: "Isso funciona em apartamento?",
       answer: "Sim. Inclusive em casos onde as baratas vêm do esgoto ou vizinhos.",
     },
     {
-      question: "Preciso usar produtos caros?",
-      answer: "Não. A Fórmula 3P usa soluções simples e acessíveis.",
-    },
-    {
       question: "É seguro para casa com pets?",
-      answer: "Sim. O método ensina aplicação segura e correta.",
+      answer: "Sim. O método ensina preparo e aplicação seguros.",
     },
     {
       question: "Em quanto tempo vejo resultado?",
-      answer: "Muitas pessoas relatam redução em poucos dias.",
+      answer: "Muitas pessoas relatam redução em poucos dias após aplicar corretamente.",
     },
   ];
 
