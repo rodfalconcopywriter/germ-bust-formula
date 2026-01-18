@@ -2,6 +2,7 @@ import UrgencyBar from "@/components/UrgencyBar";
 import HeroSection from "@/components/HeroSection";
 import FormulaSection from "@/components/FormulaSection";
 import BenefitsSection from "@/components/BenefitsSection";
+import AuthoritySection from "@/components/AuthoritySection";
 import TargetAudienceSection from "@/components/TargetAudienceSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import DeliverySection from "@/components/DeliverySection";
@@ -18,6 +19,7 @@ const Index = () => {
         <HeroSection />
         <FormulaSection />
         <BenefitsSection />
+        <AuthoritySection />
         <TargetAudienceSection />
         <TestimonialsSection />
         <DeliverySection />
