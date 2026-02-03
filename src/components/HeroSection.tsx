@@ -45,7 +45,7 @@ const HeroSection = () => {
       </div>
 
       <a href="https://pay.kiwify.com.br/BiuAzOP" target="_blank" rel="noopener noreferrer" className="cta-button pulse-cta text-lg sm:text-xl">
-        RESOLVER AGORA POR R$7
+        RESOLVER AGORA POR R$9,90
       </a>
 
       <p className="mt-3 sm:mt-4 text-xs sm:text-sm text-muted-foreground">
